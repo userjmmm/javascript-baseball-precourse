@@ -10,5 +10,6 @@ export function checkInput() { // 잘못된 값 입력하는지 검증
     if (!isValid || !isDuplicate) {
         inputError()
     }
-    console.log('입력 받은 숫자: ', numbers);
+    console.log('입력 받은 숫자: ', numbers)
+    return numbers
 }
